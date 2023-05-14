@@ -54,14 +54,18 @@
 <br>
 <br>
 
-|  | Online Color Store ( Frontend only ) |
+|  | Online Color Store ( MERN / MEAN / etc. )  |
 | :----: | :---: |
 | 01 | Build an online shop for selling colors ( red, blue, your-own-color, etc ) |
 | 02 | Home page should contain list of all the colors / products and a search bar |
 | 03 | Each color / product card should contain image, info, price and a way to add it to cart, increase/decrease the quantity |
 | 04 | Have a quantity limitation to your color / product and give visual feedback to user when exceeding this limit |
-| 05 | Search results should update the products on homepage after a delay of 500 ms with each key stroke |
-| 06 | There should be navigation between Home and Cart page with search results and cart items being persisted in-memory |
+| 05 | Search results should update the products on homepage after a delay of 500 ms with each key stroke ( debouncing ) |
+| 06 | There should be navigation between Home and Cart page with search results and cart items being persisted in-memory + backend |
 | 06 | Do not use browser based storage options for persistence |
 | 07 | Build a responsive UI without using media queries |
-| 08 | Create dummy data with a single product having id, name, image, info, price, quantity   |  
+| 08 | Create a node backend with for the same with two api endpoints - get-all-product, add-to-cart |  
+| 09 | get-all-product should have a query parameter for search |  
+| 10 | Use services like firebase and render to host your project |
+| 11 | Use git and github with commits and all |
+
